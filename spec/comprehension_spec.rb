@@ -221,7 +221,7 @@ describe "GIT" do
 
   it "29. What is the syntax for deleting a remote branch called 'add-img'
       on the remote 'butterfly' using the push and colon syntax?" do
-    answer = "git push origin butterfly"
+    answer = "git push origin :butterfly"
     encoded_answer = "9e528dd3bf4ed25f25b148bdc947566883ba785b"
     expect(encode(answer)).to eq(encoded_answer)
   end
